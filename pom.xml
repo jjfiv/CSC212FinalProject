@@ -11,6 +11,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <javaVersion>1.8</javaVersion>
+    <mainClass>edu.smith.cs.csc212.fp.Main</mainClass>
   </properties>
 
   <repositories>
@@ -32,7 +33,7 @@
     <dependency>
       <groupId>com.github.jjfiv</groupId>
       <artifactId>GFX</artifactId>
-      <version>1.5.3</version>
+      <version>1.6.0</version>
     </dependency>
 
   </dependencies>
@@ -51,7 +52,7 @@
               <classpathPrefix>lib/</classpathPrefix>
               <addClasspath>true</addClasspath>
               <useUniqueVersions>false</useUniqueVersions>
-              <mainClass>edu.smith.cs.csc212.fp.Main</mainClass>
+              <mainClass>${mainClass}</mainClass>
             </manifest>
           </archive>
         </configuration>
